@@ -1,0 +1,63 @@
+/*
+
+Add styles or override variables from the theme here.
+
+*/
+$primary: rgba(23, 21, 27, 0.6) !default;
+$navbar-dark-active-color: white !default;
+
+.td-default main { section:first-of-type {
+    padding-top: 5rem !important;
+    padding-bottom: 1rem !important;
+    @media (min-width: 768px) {
+        padding-top: 3rem !important;
+    }
+
+    }
+}
+
+img {
+    max-width: 100% !important;
+    height: auto;
+}
+
+.td-navbar {
+    position: fixed !important;
+    background: $primary !important;
+}
+.td-navbar-cover {
+    @media (min-width: 768px) {
+        background: $primary !important;
+    }
+}
+
+a.nav-link {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-bottom: 0.2rem;
+    text-decoration: none;
+}
+.nav-link.active {
+  padding-top: 0.4rem;
+  padding-bottom: 0.1rem;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  color: rgba(255, 255, 255, 1) !important;
+}
+div.nav-block {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.3rem;
+}
+div.nav-block.active {
+  padding-bottom: 0.3rem;
+  border: 0.1rem solid violet;
+}
+a.nav-link:hover {
+  border-bottom: 0.1rem solid;
+  padding-bottom: 0.1rem;
+
+}
+a.nav-link.active:hover {
+  border-bottom: 0px solid;
+}
